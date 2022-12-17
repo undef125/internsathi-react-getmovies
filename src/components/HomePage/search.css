@@ -1,0 +1,36 @@
+.searchholder{
+    padding: .8rem 0;
+}
+.searchbarcontainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movieinputholder{
+    padding: .4rem 0 .4rem .4rem;
+}
+.movieinputholder input{
+    height: 1.8rem;
+    outline: none;
+    border: 0px;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: .1rem .2rem;
+    font-size: 1rem;
+}
+.movieinputholder input:focus{
+    border-bottom: 1.5px solid rgb(73, 167, 244);
+}
+.searchiconholder{
+    background-color: white;
+    height: 1.8rem;
+    padding: .1rem .4rem;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.searchiconholder > img {
+    width: 1.4rem;
+    object-fit: cover;
+}
