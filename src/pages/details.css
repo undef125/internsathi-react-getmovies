@@ -1,0 +1,55 @@
+.descriptionpagecontainer {
+  display: flex;
+  height: 100vh;
+}
+.detailsholder {
+  display: flex;
+  padding: 0.4rem 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.head {
+    font-weight: 600;
+}
+.imagecontainer{
+    height: 26rem;
+    width: 18rem;
+}
+.imagecontainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.detailsaboutmovies {
+    border-radius: 0 10px 10px 0;
+  background-color: #495579;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: 26rem;
+  padding: .1rem .4rem;
+}
+.summary{
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 700px) {
+    .detailsholder {
+        flex-direction: column;
+    }
+    .detailsaboutmovies {
+      height: auto;
+    border-radius: 0 0px 10px 10px;
+
+    }
+    .imagecontainer{
+        width: 100%;
+    }
+}

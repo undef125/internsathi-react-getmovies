@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function HomePage() {
 
-    const [search, setSearch] = useState("spider man")
+    const [search, setSearch] = useState("spider man"); //omdb doesnot provide random movie so initially i set it up to search spiderman
 
     return (
         <>

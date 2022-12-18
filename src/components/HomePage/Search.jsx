@@ -2,7 +2,9 @@ import React, { useRef } from "react";
 import "./search.css"
 
 export default function Search({ setSearch }) {
+    
     const searchRef = useRef(null);
+
     return (
         <div className="searchholder">
             <div className="searchbarcontainer">
