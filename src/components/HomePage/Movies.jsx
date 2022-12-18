@@ -8,7 +8,7 @@ import Loader from "../Loader";
 export default function Movies({ search }) {
 
     const [movies, setMovies] = useState([]);
-    const [notFound, setnotFound] = useState(true);
+    const [notFound, setnotFound] = useState(false);
     const [error, seterror] = useState(false);
     const [loading, setLoading] = useState(false);
 
