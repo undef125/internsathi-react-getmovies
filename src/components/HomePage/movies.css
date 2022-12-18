@@ -23,6 +23,7 @@
   background-color: #495579;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  border-radius: 0px 0px 6px 6px;
 }
 .singlemovie:hover {
   box-shadow: 1px 1px 4px #838ca9;

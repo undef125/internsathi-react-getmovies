@@ -35,7 +35,7 @@ export default function Details() {
               </div>
               <div className="detailsaboutmovies">
                 <div className="title">
-                  <h1>{singleMovie.Title}</h1>
+                  {singleMovie.Title}
                 </div>
                 <div className="type">
                   <span className="head">Type</span>: {singleMovie.Type}
